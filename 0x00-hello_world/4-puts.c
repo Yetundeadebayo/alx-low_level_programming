@@ -6,12 +6,8 @@
  */
 int main(void)
 {
-int i;
+    puts("Programming is like building a multilingual puzzle");
 
-for (i = 0; i < 10; i++)
-{
-puts("Programming is like building a multilingual puzzle\n");
+    return (0);
 }
 
-return (0);
-}
