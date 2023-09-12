@@ -1,22 +1,16 @@
-#include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
  *
- * Description: Prints _putchar, followed by a new line
- *
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	char message[] = "_putchar\n";
-	int i;
 
-	for (i = 0; message[i] != '\0'; i++)
-	{
-		/* Use the _putchar function to print each character */
-		_putchar(message[i]);
-	}
+printf("_putchar\n");
 
-	return (0);
+return (0);
 }
